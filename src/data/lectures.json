@@ -1,0 +1,28 @@
+{
+  "lectures": [
+    {
+      "id": 1,
+      "date": "2025-01-13",
+      "jour": "Lundi",
+      "titre": "Première lecture",
+      "reference": "1 Samuel 1, 1-8",
+      "contenu": "Il y avait un homme de Ramataïm, un Éphraïmite nommé Elqana, fils de Yeroam, fils d'Élihou, fils de Tohou, fils de Souf, un Éphraïmite. Il avait deux femmes : l'une s'appelait Anne, l'autre Peninna. Peninna avait des enfants, mais Anne n'en avait pas. Chaque année, cet homme montait de sa ville pour adorer le Seigneur de l'univers et lui offrir des sacrifices à Silo. Là se trouvaient les deux fils d'Éli, Hophni et Pinhas, prêtres du Seigneur."
+    },
+    {
+      "id": 2,
+      "date": "2025-01-13",
+      "jour": "Lundi",
+      "titre": "Psaume",
+      "reference": "Psaume 115 (116), 12-13, 14-15, 16-17",
+      "contenu": "Comment rendrai-je au Seigneur tout le bien qu'il m'a fait ? J'élèverai la coupe du salut, j'invoquerai le nom du Seigneur. Je tiendrai mes promesses au Seigneur, oui, devant tout son peuple."
+    },
+    {
+      "id": 3,
+      "date": "2025-01-13",
+      "jour": "Lundi",
+      "titre": "Évangile",
+      "reference": "Marc 1, 14-20",
+      "contenu": "Après l'arrestation de Jean, Jésus partit pour la Galilée proclamer l'Évangile de Dieu ; il disait : « Les temps sont accomplis : le règne de Dieu est tout proche. Convertissez-vous et croyez à l'Évangile. »"
+    }
+  ]
+} 

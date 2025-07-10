@@ -1,0 +1,63 @@
+/* Styles personnalisés pour l'application Saint Leonard */
+/* Application de la police Syne sur tout le site */
+
+/* Application de la police Syne sur tous les éléments */
+* {
+  font-family: 'Syne', system-ui, Avenir, Helvetica, Arial, sans-serif !important;
+}
+
+/* Application spécifique sur la navbar */
+.navbar,
+.navbar-brand,
+.navbar-nav .nav-link,
+.dropdown-menu,
+.dropdown-item {
+  font-family: 'Syne', system-ui, Avenir, Helvetica, Arial, sans-serif !important;
+}
+
+/* Correction de l'alignement du dropdown */
+.navbar .dropdown-menu {
+  margin-top: 0;
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 0 0 8px 8px;
+}
+
+.navbar .dropdown-item {
+  padding: 0.75rem 1.5rem;
+  color: #333;
+  transition: background-color 0.2s ease;
+}
+
+.navbar .dropdown-item:hover {
+  background-color: #f8f9fa;
+  color: #000;
+}
+
+.navbar .dropdown-divider {
+  margin: 0.5rem 0;
+}
+
+/* Masquer la topbar sur mobile */
+@media (max-width: 767.98px) {
+  .topbar {
+    display: none !important;
+  }
+}
+
+/* Effet hover sur les boutons de la hero section */
+.hero-section .btn {
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+}
+.hero-section .btn:hover {
+  box-shadow: 0 4px 16px rgba(25,182,201,0.15);
+  filter: brightness(1.08);
+}
+.hero-section .btn[style*='#19b6c9']:hover {
+  background: #138a99 !important;
+  color: #fff !important;
+}
+.hero-section .btn[style*='#ffe082']:hover {
+  background: #ffd54f !important;
+  color: #222 !important;
+}
