@@ -1,11 +1,11 @@
 import React from 'react';
-import { FaUsers, FaHandsHelping, FaPrayingHands, FaBible, FaHeart, FaPlusCircle, FaEnvelope } from 'react-icons/fa';
+import { FaUsers, FaHandsHelping, FaBible, FaHeart, FaPlusCircle, FaEnvelope } from 'react-icons/fa';
 
 const groupes = [
   {
     nom: 'Groupe de prière',
     description: 'Rencontres hebdomadaires pour prier, louer et intercéder ensemble.',
-    icone: <FaPrayingHands style={{color: '#19b6c9', fontSize: '2rem'}} />,
+    icone: <FaHandsHelping style={{color: '#19b6c9', fontSize: '2rem'}} />,
   },
   {
     nom: 'Groupe biblique',
@@ -79,7 +79,7 @@ function GroupesVie() {
       {/* Pourquoi rejoindre un groupe ? */}
       <section className="py-5" style={{background: '#f8f9fa'}}>
         <div className="container">
-          <h2 className="text-center mb-5" style={{color: '#19b6c9'}}>Pourquoi rejoindre un groupe&nbsp;?</h2>
+          <h2 className="text-center mb-5" style={{color: '#19b6c9'}}>Pourquoi rejoindre un groupe ?</h2>
           <div className="row justify-content-center">
             <div className="col-lg-10">
               <ul className="list-unstyled fs-5 mb-0">
@@ -96,7 +96,7 @@ function GroupesVie() {
       {/* Comment rejoindre un groupe ? */}
       <section className="py-5">
         <div className="container">
-          <h2 className="text-center mb-5" style={{color: '#19b6c9'}}>Comment rejoindre un groupe&nbsp;?</h2>
+          <h2 className="text-center mb-5" style={{color: '#19b6c9'}}>Comment rejoindre un groupe ?</h2>
           <div className="row justify-content-center">
             <div className="col-lg-8">
               <div className="card border-0 shadow-sm">
@@ -154,8 +154,8 @@ function GroupesVie() {
       {/* Appel à l’action */}
       <section className="py-5" style={{background: 'linear-gradient(135deg, #19b6c9 0%, #0d8a9a 100%)', color: 'white'}}>
         <div className="container text-center">
-          <h2 className="mb-4">Envie de rejoindre un groupe&nbsp;?</h2>
-          <p className="lead mb-4">N’attendez plus pour vivre la fraternité et la joie de l’Évangile en petit groupe !</p>
+          <h2 className="mb-4">Envie de rejoindre un groupe ?</h2>
+          <p className="lead mb-4">N’attendez plus pour vivre la fraternité et la joie de l’Évangile en petit groupe !</p>
           <a href="#" className="btn btn-lg px-4 fw-bold" style={{background: '#fff', color: '#19b6c9', border: 'none'}}>
             <FaPlusCircle className="me-2" />Je veux rejoindre un groupe
           </a>

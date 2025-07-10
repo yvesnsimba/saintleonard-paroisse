@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaCross, FaBirthdayCake, FaPray, FaHandshake, FaHeart, FaUnlock, FaBaby, FaUsers, FaCalendarAlt, FaCheck, FaBookOpen, FaStar } from 'react-icons/fa';
+import { FaCross, FaGift, FaPray, FaHandshake, FaHeart, FaUnlock, FaBaby, FaUsers, FaCalendarAlt, FaCheck, FaBookOpen, FaStar } from 'react-icons/fa';
 import imgSaintLeonard from '../assets/Sain Leonard de Noblac.jpg';
 
 function PatronParoisse() {

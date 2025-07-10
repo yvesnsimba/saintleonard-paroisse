@@ -1,12 +1,5 @@
 import React, { useEffect } from 'react';
 import Navbar from './components/Navbar';
-import HeroSection from './components/HeroSection';
-import AboutSection from './components/AboutSection';
-import TestimonialsSection from './components/TestimonialsSection';
-import BibleQuoteSection from './components/BibleQuoteSection';
-import ContactSection from './components/ContactSection';
-import NewsletterSection from './components/NewsletterSection';
-import PartnersSection from './components/PartnersSection';
 import Footer from './components/Footer';
 import { Routes, Route } from 'react-router-dom';
 import Accueil from './pages/Accueil';

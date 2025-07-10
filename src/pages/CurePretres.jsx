@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaChurch, FaUserTie, FaPhone, FaEnvelope, FaMapMarkerAlt, FaClock, FaPrayingHands, FaUsers, FaBook, FaHeart, FaHandshake, FaLightbulb } from 'react-icons/fa';
+import { FaChurch, FaUserTie, FaPhone, FaEnvelope, FaMapMarkerAlt, FaClock, FaPray, FaUsers, FaBook, FaHeart, FaHandshake, FaLightbulb } from 'react-icons/fa';
 import cureImg from '../assets/Cure de la paroisse.jpg';
 import vicaireImg from '../assets/Vicaire paroissial.jpg';
 import pretre1Img from '../assets/Prêtre coopérateur.jpg';
